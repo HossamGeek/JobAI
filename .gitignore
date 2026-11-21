@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+*.tsbuildinfo
+
+# Environment files: never commit real values
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tooling caches
+.jest-cache/
+.eslintcache
+.agent
+.agents
+.commandcode
+.opencode
+.delegate
+opencode.json
+.agent-workflow
+mdPlanFiles
