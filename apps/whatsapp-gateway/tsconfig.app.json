@@ -3,5 +3,5 @@
   "compilerOptions": {
     "outDir": "../../dist/apps/whatsapp-gateway"
   },
-  "include": ["*.ts"]
+  "include": ["**/*.ts"]
 }
