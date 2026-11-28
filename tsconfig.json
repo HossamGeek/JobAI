@@ -16,6 +16,20 @@
     "moduleResolution": "node",
     "ignoreDeprecations": "6.0",
     "types": ["node"],
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@app/common": ["libs/common/index.ts"],
+      "@app/common/*": ["libs/common/*"],
+      "@app/error": ["libs/error/index.ts"],
+      "@app/error/*": ["libs/error/*"],
+      "@app/validation": ["libs/validation/index.ts"],
+      "@app/validation/*": ["libs/validation/*"],
+      "@app/config": ["libs/config/index.ts"],
+      "@app/config/*": ["libs/config/*"],
+      "@app/database": ["libs/database/index.ts"],
+      "@app/database/*": ["libs/database/*"],
+      "@app/queue": ["libs/queue/index.ts"],
+      "@app/queue/*": ["libs/queue/*"]
+    }
   }
 }
